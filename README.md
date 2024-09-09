@@ -19,7 +19,7 @@
 
 <img style="width: 10%; height: 10%; text-align: left;" src="https://amipaiessantmarcal.org/wp-content/uploads/2020/01/IES-1024x614.jpg">
 <img style="text-align: right;" scr="https://i.pinimg.com/originals/8d/c5/a3/8dc5a359f69211ccbd63b83522752aec.png">
-<h1 style="text-align: center;">Recomanacions de cançons</h1>
+<h1 style="text-align:center; font-size:200%; border: 3px solid black; background-color: rgb(255, 204, 94);">RECOMANACIONS DE CANÇONS</h1>
 <h2 style="text-align: center; font-size: small; color: rgb(0, 3, 47);">Lin Su Pingel Payeras</h2>
 <p style="font-size: large;">Introdueix el nom d'una cançó per obtenir recomanacions similars:</p>
 
