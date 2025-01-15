@@ -32,11 +32,11 @@
 <div class="results" id="results" style="font-size:200%;"></div>
 
 <script>
-    const clientId = "039018ef518e43d68d5289989fb3139e"; // Sustituye por tu propio client_id
-    const clientSecret = "89aa13c20f4747a7affb9dd5c3e872a7"; // Sustituye por tu propio client_secret
+    const clientId = "039018ef518e43d68d5289989fb3139e"; 
+    const clientSecret = "89aa13c20f4747a7affb9dd5c3e872a7"; 
     let accessToken = '';
 
-    // Autenticación con la API de Spotify
+   
     async function getAccessToken() {
         const result = await fetch('https://accounts.spotify.com/api/token', {
             method: 'POST',
@@ -50,7 +50,7 @@
         accessToken = data.access_token;
     }
 
-    // Función para buscar una canción y obtener recomendaciones
+
     async function searchSong() {
         const query = document.getElementById('searchInput').value;
         if (!accessToken) {
